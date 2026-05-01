@@ -1,0 +1,14 @@
+.speedx-drive-root{position:relative;min-height:75vh;background:#07070a;border-radius:16px;overflow:hidden;color:#fff;font-family:Inter,system-ui,sans-serif}
+#speedx-canvas{width:100%;height:75vh;display:block}
+.speedx-loading{position:absolute;inset:0;display:flex;flex-direction:column;justify-content:center;align-items:center;gap:12px;background:radial-gradient(circle at center,#151515,#050505);z-index:20}
+.speedx-logo{font-size:2.2rem;letter-spacing:.3rem;color:#ffcd0e;text-shadow:0 0 20px #ffcd0e}
+.speedx-progress{width:280px;height:8px;border:1px solid #444;border-radius:999px;overflow:hidden}.speedx-progress span{display:block;height:100%;width:0;background:#ffcd0e}
+#speedx-start-btn{padding:12px 26px;border:0;border-radius:999px;background:#ffcd0e;color:#111;font-weight:700;box-shadow:0 0 20px rgba(255,205,14,.7);cursor:pointer}
+.speedx-hud{position:absolute;inset:0;pointer-events:none}.speedx-hud button,.speedx-popup,.speedx-mobile-controls{pointer-events:auto}
+#speedx-mute{position:absolute;top:12px;right:12px;background:#111a;border:1px solid #ffcd0e;color:#ffcd0e;border-radius:8px;padding:8px}
+.speedx-popup{position:absolute;left:50%;bottom:24px;transform:translateX(-50%);max-width:420px;background:rgba(255,255,255,.1);backdrop-filter:blur(12px);padding:16px;border:1px solid rgba(255,255,255,.2);border-radius:14px}
+.speedx-popup .speedx-cta{display:inline-block;margin-top:8px;color:#111;background:#ffcd0e;padding:8px 14px;border-radius:999px;text-decoration:none}
+.speedx-mobile-controls{position:absolute;inset:auto 0 0;display:none;justify-content:space-between;padding:16px}
+.speedx-mobile-controls button{width:52px;height:52px;border-radius:50%;border:1px solid #ffcd0e;background:#111c;color:#ffcd0e}
+.speedx-fallback{position:absolute;inset:0;display:flex;align-items:center;justify-content:center;background:#060606;z-index:25}
+@media (max-width:900px){.speedx-mobile-controls{display:flex}}
